@@ -21,11 +21,12 @@
 
 a = 5
 b = "<li> hola </li>\n"
-c = "<ul>"
-d = "</ul>"
+c = "<ul>\n"
+d = "</ul>\n"
 
+puts c
 a.times do
   puts b
 end
-
+puts d
 #puts b
