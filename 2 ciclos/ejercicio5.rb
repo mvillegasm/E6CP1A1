@@ -13,7 +13,7 @@
 suma = 0
 
 10.times do |i|
-  i=i+1
+  i += 1
   suma += i
   puts suma
 end
