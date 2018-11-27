@@ -8,11 +8,24 @@
 # <li> hola </li>
 # </ul>
 
+#a = 5
+#b = ''
+
+#a.times do
+#  b = "<li> hola </li>\n"
+#end
+
+#puts b
+
+
+
 a = 5
-b = ''
+b = "<li> hola </li>\n"
+c = "<ul>"
+d = "</ul>"
 
 a.times do
-  b = "<li> hola </li>\n"
+  puts b
 end
 
-puts b
+#puts b
