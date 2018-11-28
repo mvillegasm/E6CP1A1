@@ -13,11 +13,10 @@ a = ''
 salida = 'a = \''
 puts a
 10.times do |i|
-  i+=1
+  i += 1
 
-	(salida = salida+i.to_s+'impar ') if i.odd?
+	(salida = salida + i.to_s+'impar ') if i.odd?
   (salida = salida+i.to_s+'par ') if i.even?
-#	puts "#{i}par" if i.even?
 
 end
 puts "#{salida + '\''}"
